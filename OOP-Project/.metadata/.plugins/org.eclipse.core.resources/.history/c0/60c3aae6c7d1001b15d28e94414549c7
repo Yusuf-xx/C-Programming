@@ -1,0 +1,43 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome To KidZania School, KL");
+		int choice; 
+		String studentName; String parentName; String parentID; 
+		double deposits;
+		Scanner in = new Scanner(System.in); 
+		Scanner keyboard = new Scanner(System.in); 
+		
+		System.out.println("1. Register if you are not memeber.");
+		System.out.println("2. Login if you are already member.");
+		
+		choice = in.nextInt(); 
+		
+		if (choice == 1)
+		{
+			System.out.println("Enter your name: ");
+			parentName = keyboard.next(); 
+			System.out.println("Enter your kid's name: ");
+			studentName = keyboard.next(); 
+			System.out.println("Enter your ID: ");
+			parentID = keyboard.next(); 
+		do {
+			System.out.println("Enter RM50 deposits: ");
+			deposits = keyboard.nextDouble();
+			if (deposits < 50)
+				System.out.println("Deposits must be RM50");	
+		} while (deposits < 50); 
+		  
+		  
+		}
+		
+		
+		
+
+	}
+
+}

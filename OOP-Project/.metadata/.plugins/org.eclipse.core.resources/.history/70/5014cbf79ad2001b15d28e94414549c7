@@ -1,0 +1,29 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome To KidZania School, KL");
+		
+		int choice;  
+		String parentName; String parentID; 
+		double deposits = 50; 
+		
+		Scanner in = new Scanner(System.in); 
+		Scanner keyboard = new Scanner(System.in);
+		
+		KidZania kid1 = new KidZania("asd", "asd", "123", 50);
+		KidZania kid2 = new KidZania("qwe", "qwe", "qwe", 50);
+		
+		
+		
+		
+		System.out.println("2. Login if you are already member.");
+		System.out.println("3. Exit.");
+		
+		
+		
+  }
+}

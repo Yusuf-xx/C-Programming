@@ -1,0 +1,71 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL { 
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome to KidZania School KL\n");
+		int choice;
+		Scanner in = new Scanner(System.in);
+		do {
+		System.out.println("1. Register if you are not memeber of the school");
+		System.out.println("2. Login");
+		System.out.println("3. Exit");
+		System.out.print("Enter options: ");
+		
+		choice = in.nextInt();
+		
+		if (choice == 1)
+		   register();
+		else login();	
+		
+	} while (choice != 3); 
+}
+	
+	public static void register()
+	{
+		String studentname; String parentname; String parentID; double deposit;
+		Scanner keyboard = new Scanner(System.in);
+
+		System.out.print("Enter the name of student: ");
+		studentname = keyboard.next();
+		System.out.print("Enter parent's name: ");
+		parentname = keyboard.next();
+		System.out.print("Enter ID: ");
+		parentID = keyboard.next();
+		do {
+		System.out.print("Enter deposits RM50: ");
+		deposit = keyboard.nextDouble();
+		
+		if (deposit < 50) 
+			System.out.println("Deposit must be RM50");
+	} while (deposit < 50);
+	
+	 
+	  KidZania kid = new KidZania(studentname, parentname, parentID, deposit);
+	  System.out.println("Registration Successful!\n");
+	  kid.addKid(kid);
+		
+	}
+	
+	public static void login()
+	{
+		String parentname; String parentID; 
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Enter your name: ");
+		parentname = keyboard.next();
+		System.out.print("Enter your ID: ");
+		parentID = keyboard.next();
+		
+		KidZania kid;
+		kid.setName(parentID);
+		
+		if(kid.ValidateLogin(parentID))
+		{
+			kid.viewDetails();
+		}
+		
+		
+	}	
+}

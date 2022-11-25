@@ -1,0 +1,22 @@
+The list of Postgraduate Students
+NO	NAME						SUPERVISOR                                        PROJECT                                           
+1	Baker Bin Malik				Prof. Dr. Kamil Ahmed                             The Effects of Social Media                       
+2	Ruby Gabrial 				Prof. Dr. Saidi Abdullah                          Adaptive Human Capital Management                 
+3	Maidul Hasan				Prof. Dr. Madiya                                  Social significance of design                     
+4	Abdur Fattah 				Prof. Dr. Jannat                                  Managing the Millennial Generation                
+5	Habib Al Ahsan 				Prof. Dr. Jahangir                                Current trends in consumer behavior in relation to advertising
+6	Hasan Al Araf 				Prof. Dr. Hasan                                   Understanding how the prefrontal cortex makes us human
+7	Naveed Bashar 				Prof. Dr. Sergio                                  An analysis of the ability of an MRI to determine brain function
+8	Ibn Hasnat  				Prof. Dr. Jabal                                   An analysis of the relationship between emotional and episodic memory 
+9	Shahid Afridi 				Prof. Dr. Habiba Shahid                           The impact of teachers’ shocking behaviors in fostering students’ creativity
+10	Rubina Zabrial 				Prof. Dr. Shahid Ullah                            Adaptive Human Capital Management                 
+11	Rubayet Khandar				Prof. Dr. Gabrial                                 Workplace ethics in small businesses              
+12	Towhid Ahmed 				Prof. Dr. Hasnat                                  critical analysis of the law of omissions liability
+13	Omar Khattar 				Prof. Dr. Hasan                                   Does learning existentialism cause suicides?      
+14	Omar Abdullah 				Prof. Dr. Halal                                   Brainwashing people too fast can make them resistant to it
+15	Yusuf Abdullah 				Prof. Dr. Habib                                   The role of homework in the lives of immigrant adolescents
+16	Abu Roman     				Prof. Dr. Haizan                                  Methods for improving Open Web Architecture       
+17	Omar Khattab 				Prof. Dr. Hasan                                   A detailed analysis of gender and race profiling of suspects in the criminal justice system
+18	Zarif Abdullah 				Prof. Dr. Habib                                   Creativity is a fantasy and nothing more than autohypnosis
+19	Abu Ahad     				Prof. Dr. Haizan                                  An analysis of software solutions for the increased energy efficiency
+20	Towsif Ahmed 				Prof. Dr. Hasnat                                  New methods of risk management during software development

@@ -1,0 +1,44 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome To KidZania School, KL");
+		
+		String parentName; String parentID; boolean found = false; int flag; 
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		KidZania kid[] = { new KidZania("asd", "asd", "123", 50),
+				           new KidZania("qwe", "qwe", "345", 50),
+				           new KidZania("zxc", "zxc", "567", 50)
+				         };
+		MyKid child[] = { new MyKid("asd", "asd", "123", 50),
+		                 new MyKid("qwe", "qwe", "345", 50),
+		                 new MyKid("zxc", "zxc", "567", 50)
+		               };
+		
+		System.out.print("Enter username: ");
+		parentName = keyboard.next();
+		
+		System.out.print("Enter parent ID: ");
+		parentID = keyboard.next();
+		
+		for (int i = 0; i < 3; i++)
+		{	
+			if (kid[i].ParentName == child[i].ParentName)
+			{
+				found = true;
+				break;
+			}
+			
+			if (found)
+				System.out.println("Logged in!");
+			else System.out.println("ID not found");
+		} 
+		
+		keyboard.close();
+  }
+}

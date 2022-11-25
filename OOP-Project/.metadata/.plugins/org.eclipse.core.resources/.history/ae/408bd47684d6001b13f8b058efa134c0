@@ -1,0 +1,54 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome To KidZania School, KL");
+		
+		String parentName; String parentID; boolean found = false; int flag = 1;
+		int hours;
+		Scanner keyboard = new Scanner(System.in); 
+		
+		KidZania kid;
+		System.out.println("Register");
+		
+		System.out.print("Enter Student Name: ");
+		parentName = keyboard.next();
+		
+		System.out.print("Enter parent ID: ");
+		parentID = keyboard.next();
+		
+		System.out.print("Enter hours: ");
+		hours = keyboard.nextInt();
+		
+		for (int i = 0; i < 3; i++)
+		{	
+			if (kid[i].ParentName == child[i].ParentName)
+			{
+				found = true;
+				flag = i;
+				break;
+			}
+		}
+			
+		if (found)
+		{	
+		  System.out.print("Lost ID - Y/N");
+		  opt = keyboard.next().charAt(0);
+		  
+		  if ( opt == 'Y')
+		     kid[flag].DepositDeduct();
+		  
+		   kid[flag].CalculateRate(hours);
+		   System.out.println(kid[flag].toString());
+		   System.out.println("Rate: " +kid[flag].CalculateRate(hours));
+		  
+		}
+			else System.out.println("ID not found"); 
+		
+		keyboard.close();
+  }
+ }
+

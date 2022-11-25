@@ -1,0 +1,15 @@
+package kidszaniakl;
+
+public class Registration {
+	
+	private String username;
+	private String userid;
+	private String studentname;
+	private double deposits; 
+
+	public Registration() 
+	{
+		
+	}
+
+}

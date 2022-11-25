@@ -1,0 +1,10 @@
+100,Bjarne Stroustrup,The C++ Programming Language,100.00,UTMPRESS,20
+101,Herbert Schildt,Teach Yourself C++,130.00,UTMPRESS,25
+102,Matthew Sadiku,Fundamental Of Circuit,200.00,UTMPRESS,30
+103,Charles Alexander,Principles Of Linear System,150.00,UTMPRESS,15
+104,Johari Kasim,Electronic Circuits,80.00,UTMPRESS,20
+105,Ismail kamis,Advanced Calculus,50.00,UTMPRESS,10
+106,Hamisan Rahmat,Engineering Mathematics,35.00,UTMPRESS,35
+107,Ismail Kamis,Solution Calculus,40.00,UTMPRESS,25
+108,Ismail Fauzi,Digital Logic,30.00,UTMPRESS,27
+109,Noh Samad,Computer Organization,40.00,UTMPRESS,5

@@ -1,0 +1,47 @@
+package kidszaniakl;
+import java.util.ArrayList;
+
+public class KidZania extends MyKid {
+	
+	private double charges;
+	private int hours;
+	private double rate; 
+	private int count = 0;
+	private ArrayList<MyKid> kid = new ArrayList<MyKid>();
+
+	public KidZania(String StudentName, String ParentName, String ParentID, double deposits) 
+	{
+		super(StudentName, ParentName, ParentID, deposits);
+	}
+	
+	public KidZania(String ParentID)
+	{
+		int i;
+	}
+	
+	void addKid(MyKid kids)
+	{
+		kid.add(kids); 
+		count++;
+	}
+	
+	boolean ValidateLogin(String ID)
+	{
+		boolean found = false;
+		for ( int i = 0; i < count; i++)
+		{
+		if (ID == kid.get(i).ParentID)
+			found = true;
+		}
+	  return found;
+	}
+	
+	void viewDetails()
+	{
+		for (int i = 0; i < count; i++)
+		{
+			kid.get(i).toString(); 
+		}
+	}
+
+}

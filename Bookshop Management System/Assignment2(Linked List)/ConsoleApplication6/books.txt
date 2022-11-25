@@ -1,0 +1,21 @@
+4
+The C++ Programming Language
+Bjarne Stroustrup
+UTM Press
+2014
+10-D-50-X
+Advanced Calculus
+Ismail Kamis
+UTM Press
+2016
+30-40-S-600
+Solution Of Calculus
+Ismail Kamis
+UTM Press
+2018
+20-500-G-20
+Digital Logic
+Ismail Fauzi
+UTM Press
+2016
+50-40-XD-18

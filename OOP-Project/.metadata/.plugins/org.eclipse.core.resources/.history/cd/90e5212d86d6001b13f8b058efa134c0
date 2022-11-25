@@ -1,0 +1,38 @@
+package kidszaniakl;
+import java.util.ArrayList;
+
+public class KidZania extends MyKid {
+	
+	private double charges;
+	private int hours;
+	private double rate; 
+	private int count = 0;
+	private String ids;
+	private ArrayList<MyKid> kid = new ArrayList<MyKid>();
+
+	public KidZania(String StudentName, String ParentName, String ParentID, double deposits) 
+	{
+		super(StudentName, ParentName, ParentID, deposits);
+	}
+	
+	void addKid(KidZania kids)
+	{
+	   kid.add(kids);
+	}   
+	
+	double CalculateRate(int hours)
+	{
+		if (hours == 1)
+		   rate = 20;
+		else if (hours >= 1 && hours <= 2)
+		   rate = 25;
+		else if (hours >= 2 && hours <= 3)
+		   rate = 35;
+		else rate = 100;
+		
+		return rate;
+	}
+	
+}
+			
+   

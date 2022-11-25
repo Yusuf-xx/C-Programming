@@ -1,0 +1,26 @@
+package kidszaniakl;
+
+public class Registration {
+	
+	private String username;
+	private String userid;
+	private String studentname;
+	private double deposits;
+	
+	public Registration()
+	{}
+
+	public Registration(String username, String userid, String studentname, double deposits) 
+	{
+		this.username = username;
+		this.userid = userid;
+		this.studentname = studentname;
+		this.deposits = deposits;
+	}
+	
+	void Display()
+	{
+		System.out.println("Registration Successful!");
+	}
+
+}

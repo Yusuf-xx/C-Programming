@@ -1,0 +1,32 @@
+package kidszaniakl;
+import java.util.ArrayList;
+
+public class KidZania extends MyKid {
+	
+	private double charges;
+	private int hours;
+	private double rate; 
+	private int count = 0;
+	private String ids;
+	private ArrayList<MyKid> kid = new ArrayList<MyKid>();
+
+	public KidZania(String StudentName, String ParentName, String ParentID, double deposits) 
+	{
+		super(StudentName, ParentName, ParentID, deposits);
+	}
+
+	void setRate(double charges, int hours, double rate)
+	{
+		this.charges = charges;
+		this.hours = hours;
+		this.rate = rate; 
+	}
+	
+	void viewDetails()
+	{
+		
+			
+		}
+			
+	}
+   }

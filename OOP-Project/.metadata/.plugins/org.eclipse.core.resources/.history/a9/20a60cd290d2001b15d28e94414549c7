@@ -1,0 +1,9 @@
+package kidszaniakl;
+
+public class Registration {
+
+	public Registration() {
+		
+	}
+
+}

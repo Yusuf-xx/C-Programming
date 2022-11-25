@@ -1,0 +1,57 @@
+package kidszaniakl;
+import java.util.*;
+
+public class ZaniaKL {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Welcome To KidZania School, KL");
+		
+		String parentName; String parentID; String studentName;
+		int hours; double deposits;
+		char opt; int choice;
+		Scanner keyboard = new Scanner(System.in); 
+		
+		KidZania kid;
+		System.out.println("Register");
+		System.out.println("--------");
+		
+		System.out.print("Enter Student Name: ");
+		studentName = keyboard.next();
+		
+		System.out.print("Enter your name: ");
+		parentName = keyboard.next();
+		
+		System.out.print("Enter parent ID: ");
+		parentID = keyboard.next();
+		
+		do {
+			
+			System.out.print("Enter deposits RM50: ");
+			deposits = keyboard.nextDouble();
+			
+			if (deposits < 50)
+				System.out.println("Deposit must be RM50");
+		} while (deposits < 50);
+		
+		System.out.print("Enter duration(in hours): ");
+		hours = keyboard.nextInt();
+		
+		kid = new KidZania(studentName, parentName, parentID, deposits);
+		System.out.println("Successfully Registered");
+		
+		System.out.println(kid.toString());
+		
+		System.out.println("Press 1 to get if a card is lost");
+		choice = keyboard.nextInt();
+	    
+		if (choice == 1)
+		{
+			
+		}
+	      
+		
+	    
+  }
+ }
+

@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  ConsoleApplication1.cpp
+c:\users\adib murtoza\desktop\data structure project\assignment 1\consoleapplication1\consoleapplication1.cpp(799): warning C4715: 'Login': not all control paths return a value
+c:\users\adib murtoza\desktop\data structure project\assignment 1\consoleapplication1\consoleapplication1.cpp(841): warning C4715: 'staff': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\Adib Murtoza\Desktop\Data Structure Project\Assignment 1\Debug\ConsoleApplication1.exe
